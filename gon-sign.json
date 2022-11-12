@@ -1,0 +1,11 @@
+{
+  "source": ["./build/bin/app.app"],
+  "bundle_id": "httpclient.smallapp.net",
+  "apple_id": {
+    "username": "apple@buy4why.com",
+    "password": "@env:APPLE_PASSWORD"
+  },
+  "sign": {
+    "application_identity": "Apple Distribution: shi xiang (SM933D8GU2)"
+  }
+}
