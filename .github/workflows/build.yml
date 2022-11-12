@@ -42,7 +42,7 @@ jobs:
         if: matrix.platform == 'macos-latest'
         run: |
           echo "Signing Package"
-          gon -log-level=info ./build/darwin/gon-sign.json
+          gon -log-level=info ./gon-sign.json
       - name: Sign Windows binaries
         if: matrix.platform == 'windows-latest'
         run: |
